@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="./assets/js/hesaplayici.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/hesaplayici.css">
+</head>
+<body>
+    <div class="container">
+
+        <form class="form-group">
+
+            <div class="form-item">
+                <label>Yeni Gelir</label>
+                <input name="gelirName" id="gelirName" type="text">
+            </div>
+
+            <div class="form-item">
+            <label>Kazancınızı Yazınız.</label>
+            <input name="gelir" id="gelir" type="number">
+            </div>
+
+            <br>
+
+            <div class="form-item">
+            <label>yeni gider</label>
+            <input name="giderName" id="giderName" type="text">
+            </div>
+            
+            <div class="form-item">
+            <label>Harcamalarınızı Yazınız.</label>
+            <input name="gider" id="gider" type="number">
+            </div>
+
+            <br>
+            
+            <button class="ekle">Listeye Ekle</button>
+            <button class="temizle">Listeyi Temizle</button>
+            
+        </form>
+
+        <div class="liste">
+            <h2>gelir listesi</h2>
+            <ul class="gelirListesi"></ul>
+            <h2>gider listesi</h2>
+            <ul class="giderListesi"></ul>
+            <h2>sonuç</h2>
+            <ul class="sonucListesi"></ul>
+        </div>
+
+    </div>
+</body>
+</html>

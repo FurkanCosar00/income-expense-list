@@ -1,0 +1,95 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  .form-group {
+    background-color: #8dd165;
+    width: 500px;
+    padding: 32px;
+    border-radius: 14px;
+    margin-bottom: 32px;
+  }
+
+  .form-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  label {
+    color: white;
+    font-size: 20px;
+  }
+
+  button {
+    width: 215px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 0px;
+    background-color: #9DDE8B;
+    border: 2px solid #40A578;
+    border-radius: 6px;
+  }
+
+  input {
+    background-color: #9DDE8B;
+    border: 2px solid #40A578;
+    border-radius: 6px;
+    margin-bottom: 5px;
+  }
+
+  .liste {
+    background-color: #8dd165;
+    width: 500px;
+    padding: 32px;
+    border-radius: 14px;
+    margin-bottom: 32px;
+  }
+
+  .liste h2 {
+    color: #40A578;
+    font-size: 20px;
+    border-bottom: 2px solid #40A578;
+    margin-bottom: 5px;
+  }
+
+  .liste h2:nth-child(1) {
+    color: yellow;
+  }
+
+  .liste h2:nth-child(3) {
+    color: red;
+  }
+
+  .liste h2:nth-child(5) {
+    color: green;
+  }
+
+  li {
+    
+    color: white;
+  }
+
+ 
